@@ -14,6 +14,7 @@
 ## Notes-zhTW: 反歧視插件，代替實際使用的[語言]前綴的語言。
 ## Author: Zanilan based on GnomTEC_Babel by GnomTEC
 ## Version: 12.0.1
+## IconTexture: Interface\AddOns\ElvenTongue\icon.tga
 ## SavedVariablesPerCharacter: ElvenTongue_Options
 
 embeds.xml
