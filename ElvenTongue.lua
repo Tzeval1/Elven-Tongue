@@ -1,22 +1,8 @@
 ﻿-- **********************************************************************
 -- Elven Tongue
--- Version: 11.2.7
--- Author: Peter Jack
--- URL: http://www.gnomtec.de/
--- **********************************************************************
--- Copyright © 2011-2023 by Peter Jack
---
--- Licensed under the EUPL, Version 1.1 only (the "Licence");
--- You may not use this work except in compliance with the Licence.
--- You may obtain a copy of the Licence at:
---
--- http://ec.europa.eu/idabc/eupl5
---
--- Unless required by applicable law or agreed to in writing, software
--- distributed under the Licence is distributed on an "AS IS" basis,
--- WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
--- See the Licence for the specific language governing permissions and
--- limitations under the Licence.
+-- Version: 12.0.1
+-- Author: Zanilan based on Code from Peter Jack
+-- URL: https://github.com/Tzeval1/Elven-Tongue/
 -- **********************************************************************
 -- load localization first.
 local L = LibStub("AceLocale-3.0"):GetLocale("ElvenTongue")
@@ -43,11 +29,11 @@ local addonVersion = "10.2.0.31"
 local addonInfo = {
 	["Name"] = "Elven Tongue",
 	["Version"] = addonVersion,
-	["Date"] = "2023-11-19",
-	["Author"] = "Peter Jack",
-	["Email"] = "info@gnomtec.de",
-	["Website"] = "http://www.gnomtec.de/",
-	["Copyright"] = "(c)2011-2023 by Peter Jack",
+	["Date"] = "2026-03-12",
+	["Author"] = "Zanilan",
+	["Email"] = "neesdul@gmail.com",
+	["Website"] = "https://github.com/Tzeval1/Elven-Tongue/",
+	["Copyright"] = "MIT License Copyright (c) 2020-2026 Zanilan",
 }
 
 -- ElvenTongue API revision
