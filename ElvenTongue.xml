@@ -1,0 +1,47 @@
+﻿<Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/ ..\FrameXML\UI.xsd">
+	<Frame name="ELVEN_TONGUE_FRAME" parent="UIParent" toplevel="true" movable="true" clampedToScreen="true" hidden="true" inherits="BackdropTemplate">
+		<Size x="150" y="26" />
+		<Anchors>
+			<Anchor point="CENTER" relativePoint="CENTER"/>
+		</Anchors>
+		<KeyValues>
+			<KeyValue key="backdropInfo" value="BACKDROP_TUTORIAL_16_16" type="global"/>
+			<KeyValue key="backdropColor" value="TOOLTIP_DEFAULT_BACKGROUND_COLOR" type="global"/>
+		</KeyValues>
+		<Frames>
+			<Button name="$parent_SELECTLANGUAGE_BUTTON" inherits="GameMenuButtonTemplate" text="">
+				<Size x="140" y="16" />
+				<Anchors>
+					<Anchor point="TOPLEFT">
+						<Offset x="5" y="-5" />
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnClick>
+						ElvenTongue:SelectLanguage_Button_OnClick(self, button, down)
+					</OnClick>
+				</Scripts>
+			</Button>
+			<Frame name="$parent_SELECTLANGUAGE_DROPDOWN" inherits="UIDropDownMenuTemplate" id="1">
+				<Scripts>
+					<OnLoad>
+						ElvenTongue:SelectLanguage_DropDown_OnLoad(self)
+					</OnLoad>
+				</Scripts>
+			</Frame>
+		</Frames>			
+		<Scripts>
+			<OnMouseDown>
+				self:StartMoving();
+			</OnMouseDown>
+			<OnMouseUp>self:StopMovingOrSizing();</OnMouseUp>
+		</Scripts>
+	</Frame>
+	<Frame name="ELVEN_TONGUE_FRAME_LDB_SELECTLANGUAGE_DROPDOWN" inherits="UIDropDownMenuTemplate" id="1">
+		<Scripts>
+			<OnLoad>
+				ElvenTongue:LDB_SelectLanguage_DropDown_OnLoad(self)
+			</OnLoad>
+		</Scripts>
+	</Frame>
+</Ui>
