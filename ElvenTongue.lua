@@ -23,7 +23,7 @@ ElvenTongue_Options = {
 -- ----------------------------------------------------------------------
 
 -- internal used version number since WoW only updates from TOC on game start
-local addonVersion = "10.2.0.31"
+local addonVersion = "12.0.1"
 
 -- addonInfo for addon registration
 local addonInfo = {
@@ -31,7 +31,6 @@ local addonInfo = {
 	["Version"] = addonVersion,
 	["Date"] = "2026-03-12",
 	["Author"] = "Zanilan",
-	["Email"] = "neesdul@gmail.com",
 	["Website"] = "https://github.com/Tzeval1/Elven-Tongue/",
 	["Copyright"] = "MIT License Copyright (c) 2020-2026 Zanilan",
 }
