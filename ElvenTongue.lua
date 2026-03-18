@@ -31,6 +31,7 @@ local addonInfo = {
 	["Version"] = addonVersion,
 	["Date"] = "2026-03-12",
 	["Author"] = "Zanilan",
+	["Email"] = "",
 	["Website"] = "https://github.com/Tzeval1/Elven-Tongue/",
 	["Copyright"] = "MIT License Copyright (c) 2020-2026 Zanilan",
 }
