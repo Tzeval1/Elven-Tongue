@@ -1,5 +1,5 @@
-## Interface: 120000
-# retail: 120000 classic: 120000
+## Interface: 120100
+# retail: 120100 classic: 120100
 ## Title: Elven Tongue
 ## Notes: Anti-discrimination addon that replaces the language actually used by [language] prefix.
 ## Notes-deDE: Antidiskriminierungsaddon welches die eigentlich verwendete Sprache durch [Sprache]-Prefix ersetzt.
@@ -13,7 +13,7 @@
 ## Notes-zhCN: 反歧视插件，代替实际使用的[语言]前缀的语言。
 ## Notes-zhTW: 反歧視插件，代替實際使用的[語言]前綴的語言。
 ## Author: Zanilan based on GnomTEC_Babel by GnomTEC
-## Version: 12.0.1
+## Version: 12.1.0
 ## IconTexture: Interface\AddOns\ElvenTongue\icon.tga
 ## SavedVariablesPerCharacter: ElvenTongue_Options
 

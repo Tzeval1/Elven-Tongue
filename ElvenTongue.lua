@@ -1,6 +1,6 @@
 ﻿-- **********************************************************************
 -- Elven Tongue
--- Version: 12.0.1
+-- Version: 12.1.0
 -- Author: Zanilan based on Code from Peter Jack
 -- URL: https://github.com/Tzeval1/Elven-Tongue/
 -- **********************************************************************
@@ -23,13 +23,13 @@ ElvenTongue_Options = {
 -- ----------------------------------------------------------------------
 
 -- internal used version number since WoW only updates from TOC on game start
-local addonVersion = "12.0.1"
+local addonVersion = "12.1.0"
 
 -- addonInfo for addon registration
 local addonInfo = {
 	["Name"] = "Elven Tongue",
 	["Version"] = addonVersion,
-	["Date"] = "2026-03-12",
+	["Date"] = "2026-08-14",
 	["Author"] = "Zanilan",
 	["Email"] = "",
 	["Website"] = "https://github.com/Tzeval1/Elven-Tongue/",
